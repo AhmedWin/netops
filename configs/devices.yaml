@@ -1,0 +1,33 @@
+# Network Device Inventory
+# Update with your actual device details
+
+devices:
+  - hostname: CORE-SW-01
+    ip: 10.0.1.1
+    device_type: cisco_ios
+    location: Main DC - Rack A1
+
+  - hostname: CORE-SW-02
+    ip: 10.0.1.2
+    device_type: cisco_ios
+    location: Main DC - Rack A2
+
+  - hostname: DIST-SW-BR01
+    ip: 10.0.2.1
+    device_type: cisco_ios
+    location: Branch Office 01
+
+  - hostname: DIST-SW-BR02
+    ip: 10.0.2.2
+    device_type: cisco_ios
+    location: Branch Office 02
+
+  - hostname: ACC-SW-FL1-01
+    ip: 10.0.3.1
+    device_type: cisco_ios
+    location: HQ Floor 1
+
+  - hostname: FW-EDGE-01
+    ip: 10.0.0.1
+    device_type: cisco_ios
+    location: Main DC - Edge

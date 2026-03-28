@@ -1,0 +1,33 @@
+# Security Compliance Rules
+# Aligned with CIS Cisco IOS Benchmarks
+
+rules:
+  - id: SEC-001
+    category: Authentication
+    description: SSH version 2 must be enabled
+    severity: critical
+
+  - id: SEC-002
+    category: Authentication
+    description: Telnet must be disabled on all VTY lines
+    severity: critical
+
+  - id: SEC-003
+    category: Authentication
+    description: Enable secret must be used (not enable password)
+    severity: critical
+
+  - id: SEC-004
+    category: Logging
+    description: NTP server must be configured
+    severity: high
+
+  - id: SEC-005
+    category: Logging
+    description: Syslog server must be configured
+    severity: high
+
+  - id: SEC-011
+    category: Encryption
+    description: Service password-encryption must be enabled
+    severity: high
