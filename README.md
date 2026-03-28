@@ -1,4 +1,4 @@
-# 🔧 NetOps Toolkit — Network Automation & Monitoring Suite
+#  NetOps Toolkit — Network Automation & Monitoring Suite
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco-IOS%20%7C%20NX--OS-1BA0D7?logo=cisco&logoColor=white)
@@ -7,7 +7,7 @@
 
 A Python-based network automation toolkit for enterprise environments. Built for network engineers managing Cisco infrastructure at scale — automates configuration backups, health checks, VLAN audits, and compliance reporting.
 
-## 🎯 Why This Project?
+## Why This Project?
 
 Managing 100+ network devices manually is error-prone and time-consuming. This toolkit automates repetitive tasks, reduces human error, and provides real-time visibility into network health — critical in banking and financial environments where uptime is non-negotiable.
 
@@ -33,7 +33,7 @@ netops-toolkit/
 └── README.md
 ```
 
-## ⚡ Features
+##  Features
 
 | Feature | Description |
 |---------|------------|
@@ -43,7 +43,7 @@ netops-toolkit/
 | **Compliance Scanner** | Verify devices meet security baselines (NTP, ACLs, SSH settings) |
 | **Report Generator** | Generate HTML reports with charts for management review |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Clone the repo
@@ -67,7 +67,7 @@ python scripts/vlan_auditor.py --output reports/
 python scripts/compliance_scanner.py --rules configs/compliance_rules.yaml
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3.10+** — Core language
 - **Netmiko** — SSH connections to network devices
@@ -77,7 +77,7 @@ python scripts/compliance_scanner.py --rules configs/compliance_rules.yaml
 - **Rich** — Terminal output formatting
 - **Pytest** — Testing framework
 
-## 📊 Sample Output
+##  Sample Output
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
@@ -95,21 +95,21 @@ python scripts/compliance_scanner.py --rules configs/compliance_rules.yaml
   Total: 48 devices | Healthy: 45 | Warning: 2 | Critical: 1
 ```
 
-## 🔐 Security Notes
+##  Security Notes
 
 - Credentials are stored in `.env` (never committed)
 - All SSH connections use key-based auth when possible
 - Compliance rules align with CIS Cisco IOS Benchmarks
 - Designed for enterprise environments with RBAC considerations
 
-## 📝 License
+##  License
 
 MIT License — feel free to use, modify, and distribute.
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests welcome! Please open an issue first to discuss proposed changes.
 
 ---
 
-**Built with ❤️ by Ahmed Alghamdi** | [LinkedIn](https://linkedin.com/in/ahmednalghamdi) | [GitHub](https://github.com/ahmednalghamdi)
+**Built with  by Ahmed Alghamdi** | [LinkedIn](https://linkedin.com/in/ahmed-alghamdi-w) | [GitHub](https://github.com/AhmedWin))
