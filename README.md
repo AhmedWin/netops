@@ -104,7 +104,7 @@ python scripts/compliance_scanner.py --rules configs/compliance_rules.yaml
 
 ##  License
 
-MIT License — feel free to use, modify, and distribute.
+feel free to use, modify, and distribute.
 
 ##  Contributing
 
